@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Typography } from '@mui/material';
 import heroImage from '@/statics/images/Hero_Image.png';
 
 const HeroSection: React.FC = () => {
