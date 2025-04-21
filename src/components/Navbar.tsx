@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Button from './Button';
 import Link from 'next/link';
-import brandLogo from '@/statics/images/Brand_Logo.png';
-import BurgerMenu from '@/statics/images/Burger.png';
+import brandLogo from '../../public/images/Brand_Logo.png';
+import BurgerMenu from '../../public/images/Burger.png';
 
 const Navbar: React.FC = () => {
     return (
