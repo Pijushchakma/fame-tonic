@@ -1,16 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: 'export',
-  // Modify this to match your GitHub repo name
-  basePath: process.env.NODE_ENV === 'production' ? '/fame-tonic' : '',
+  // REMOVE output: 'export'
+  basePath: '', // Remove this if not needed
   images: {
-    unoptimized: true,
+    // You can remove unoptimized: true if using next/image with optimization
+    unoptimized: false,
   },
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
 };
